@@ -1,0 +1,34 @@
+cou="INDIA"
+class ACE:
+    col="ACE Engineering college"
+    def give_details(self,a,b,c,d):
+        self.tot=a+b+c
+        self.nam=d
+    def display(self):
+        print("Name of the student:  ",self.nam)
+        print("Marks got by the student:  ",self.tot)
+        print("Name of the college:  ",ACE.col)
+        print("Name of the country:  ",cou)
+class KPRIT:
+    col="KPRIT college"
+    def give_dem(self,a,b,c,d):
+        self.tot=a+b+c
+        self.nam=d
+    def show(self):
+        print("Name of the student:  ",self.nam)
+        print("Marks got by the student:  ",self.tot)
+        print("Name of the college:  ",KPRIT.col)
+        print("Name of the country:  ",cou)
+
+a=ACE()
+a2=ACE()
+b=KPRIT()
+b2=KPRIT()
+a.give_details(58,64,84,"Siddhu")
+a2.give_details(58,54,82,"Sai")
+b.give_dem(51,84,2,"Deepak")
+b2.give_dem(21,81,21,"Manoj")
+a.display()
+a2.display()
+b.show()
+b2.show()
